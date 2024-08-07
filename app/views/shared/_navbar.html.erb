@@ -1,0 +1,23 @@
+<nav class="navbar navbar-expand-lg">
+  <%= link_to root_path do %>
+    <p class="navbar-brand" >HWD</p>
+  <% end %>
+    <div  id="navbarNav">
+      <ul class="navbar-nav">
+
+          <li class="nav-item">
+            <%= link_to projects_path do %>
+              <h4 class="nav-link">Projects<span class="sr-only"></span></h4>
+            <%end%>
+          </li>
+
+          <li class="nav-item">
+            <%= link_to contact_path do %>
+              <h4 class="nav-link">Contact<span class="sr-only"></span></h4>
+            <%end%>
+          </li>
+      </ul>
+
+    </div>
+         
+  </nav>
